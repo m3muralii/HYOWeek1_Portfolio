@@ -92,16 +92,16 @@ nav{
         top:50%;
         left:20%;
         transform:translate(-50%,-50%);
-        animation:slider 8s infinite linear;
+        animation:slider 5s infinite linear;
   
     }
   @keyframes slider{
       0%{ background-image: url("../images/music.jpg");}
-      35%{background-image: url("../images/portrait.jpg");}
+      30%{background-image: url("../images/portrait.jpg");}
       /*30%{background-image: url("../images/portrait.jpg");}*/
-      55%{background-image: url("../images/instrument.png");}
-       
-      100%{background-image:url("../images/party.jpg")}
+      65%{background-image: url("../images/instrument.png");}
+      95%{background-image: url("../images/party.jpg");}
+      100%{background-image:url("../images/music.jpg")}
       
   }
     

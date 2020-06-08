@@ -96,7 +96,7 @@ nav{
   
     }
   @keyframes slider{
-      5%{ background-image: url("../images/music.jpg");}
+      0%{ background-image: url("../images/party.jpg");}
       35%{background-image: url("../images/portrait.jpg");}
       /*30%{background-image: url("../images/portrait.jpg");}*/
       55%{background-image: url("../images/instrument.png");}

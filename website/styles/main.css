@@ -73,13 +73,14 @@ nav{
         font-size:70px;
         font-weight: normal;
     }
-    p{
-        position: absolute;
+     p{
+        position: relative;
         width:120%;
-        top:55%;
+        top:50%;
         left:120%;
         font-size:x-large
     }
+    
     body #mainpage{
         width:400px;
         height:300px;

@@ -92,7 +92,7 @@ nav{
         top:50%;
         left:20%;
         transform:translate(-50%,-50%);
-        animation:slider 2s infinite linear;
+        animation:slider 8s infinite linear;
   
     }
   @keyframes slider{

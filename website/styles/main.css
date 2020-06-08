@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+body{
+    margin:0;
+    padding:0;
+    animation-name:bgcolor;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+header{
+    background-color:cornsilk;
+    height:80px;
+}
+header::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+#logo img{
+    float:left;
+    height:50px; 
+    margin:10px;
+}
+
+nav{
+    float:right;
+    position :relative;
+    bottom:16px;
+    width:auto;
+    height:4em;
+    
+    
+}
+ li{
+    
+         
+       display:inline-block;
+       font-size:larger;
+       font-family:'Comfortaa',cursive;
+       /*text-transform: uppercase;*/
+       margin:20px;
+       padding-left:40px;
+   
+       
+ }
+    
+
+    a{
+        text-decoration: none;
+        color:#444;
+        
+    }
+    a:hover{
+        color:black;
+    }
+    a::before{
+        content:'';
+        display:block;
+        height:5px;
+        
+        background-color:#444;
+        top:0;
+        width:0%;
+    }
+    a:hover::before{
+        width:100%;
+    }
+    
+    h2{
+        position:absolute;
+        left:120%;
+        bottom:20%;
+        font-family: 'Comfortaa';
+        font-size:70px;
+        font-weight: normal;
+    }
+    p{
+        position: absolute;
+        width:120%;
+        top:55%;
+        left:120%;
+        font-size:x-large
+    }
+    body #mainpage{
+        width:400px;
+        height:300px;
+        margin:25px;
+        /*background: yellow;*/
+        background-image: url("../images/music.jpg");
+        background-size:430px 320px;
+        position:absolute;
+        top:50%;
+        left:20%;
+        transform:translate(-50%,-50%);
+        animation:slider 5s infinite linear;
+  
+    }
+  @keyframes slider{
+      0%{ background-image: url("../images/music.jpg");}
+      30%{background-image: url("../images/portrait.jpg");}
+      /*30%{background-image: url("../images/portrait.jpg");}*/
+      65%{background-image: url("../images/instrument.png");}
+       
+      95%{background-image:url("../images/party.jpg")}
+      100%{ background-image: url("../images/music.jpg");}
+  }
+    
+@keyframes bgcolor{
+    0%{
+        background:#ff6b81;
+    }
+    20%{
+        background:#ffa502;
+    }
+    40%{
+        background:#ff4757;
+    }
+    
+    
+    80%{
+        background: #f8c291;
+    }
+    90%{
+        background: darksalmon;
+    
+    }
+    95%{
+        background:#ff6b81;
+    }
+    100%{
+        background:#ff6b81 ;
+    }
+}
